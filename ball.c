@@ -1,7 +1,7 @@
-#include<graphics.h>
+#include<graphics.h>							//comments by: doylefermi
 #include<math.h>
 
-void main()
+void main()										//Main function
 {
 
 	int gd=DETECT,gm=VGAMAX;
@@ -9,7 +9,7 @@ void main()
 	initgraph(&gd,&gm,0);
 	int a[]={50,100,100,100,100,150,150,150,150,200,200,200,200,250,250,250,250,300,300,300,300,350,50,350,50,100};
 	
-	fillpoly(13,a);
+	fillpoly(13,a);								//Draw polygon
 	
 	setcolor(RED);
 	pieslice(75,75,0,360,25);
@@ -42,5 +42,5 @@ void main()
 	}
 	}
 	getch();
-	closegraph();
+	closegraph();								//close graph
 }
