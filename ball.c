@@ -1,4 +1,4 @@
-#include<graphics.h>							//comments by:ranjana doyle :P
+#include<graphics.h>							//comments by: doylefermi
 #include<math.h>
 
 void main()										//Main function
